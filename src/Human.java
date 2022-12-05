@@ -3,6 +3,15 @@ public class Human {
     private  String town;
     private int yearOfBirth;
 
+    private String jobTitle;
+
+    public Human(String name, String town, int yearOfBirth, String jobTitle) {
+        this.name = name;
+        this.town = town;
+        this.yearOfBirth = yearOfBirth;
+        this.jobTitle = jobTitle;
+    }
+
     public Human(String name, String town, int yearOfBirth) {
         this.name = name;
         this.town = town;
@@ -26,6 +35,7 @@ public class Human {
         return
                 "Привет! Меня зовут " + name + ". " +
                 "Я из города " + town + ". " +
-                "Я родился в " + yearOfBirth + "(ом) году. Будем знакомы! ";
+                "Я родился в " + yearOfBirth + "(ом) году." + "Я работаю на должности " + jobTitle +
+                        " Будем знакомы! " ;
     }
 }
