@@ -19,6 +19,17 @@ public class Main {
         System.out.println(human5);
         System.out.println(human6);
 
+        Flower flower1 = new Flower("Роза обыкновенная", "Голландия", 35.59);
+        Flower flower2 = new Flower("Хризантема", null, 15.00, 5);
+        Flower flower3 = new Flower("Пион", "англия", 69.90, 1);
+        Flower flower4 = new Flower("Гипсофила", "Турция", 19.50, 10);
+
+
+        System.out.println(flower1);
+        System.out.println(flower2);
+        System.out.println(flower3);
+        System.out.println(flower4);
+
 
     }
 }
