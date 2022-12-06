@@ -9,7 +9,7 @@ public class Main {
         Human human4 = new Human("Артём", "Москва", 1995,
                 "директор(ом) по развитию бизнеса.");
         Human human5 = new Human(null, null, -1234, null);
-
+        Human human6 = new Human("Владимир", "Казань", 2001, null);
 
 
         System.out.println(human1);
@@ -17,6 +17,7 @@ public class Main {
         System.out.println(human3);
         System.out.println(human4);
         System.out.println(human5);
+        System.out.println(human6);
 
 
     }
