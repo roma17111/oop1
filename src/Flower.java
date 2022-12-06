@@ -51,7 +51,21 @@ public class Flower {
         this.ifeSpan = 3 ;
     }
 
+    public String getFlowerName() {
+        return flowerName;
+    }
 
+    public String getCountry() {
+        return country;
+    }
+
+    public double getCost() {
+        return cost;
+    }
+
+    public int getIfeSpan() {
+        return ifeSpan;
+    }
 
     @Override
     public String toString() {

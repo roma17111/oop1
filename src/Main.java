@@ -24,12 +24,23 @@ public class Main {
         Flower flower3 = new Flower("Пион", "англия", 69.90, 1);
         Flower flower4 = new Flower("Гипсофила", "Турция", 19.50, 10);
 
+        Flower[] flowers = {flower1, flower2, flower3, flower4};
 
         System.out.println(flower1);
         System.out.println(flower2);
         System.out.println(flower3);
         System.out.println(flower4);
 
+
+
+    }
+    public static void bouquets (Flower flower1, Flower flower2, Flower flower3, Flower flower4) {
+        Flower[] flowers = {flower1, flower2, flower3, flower4};
+        String sumB = " ";
+        for (int i = 0; i < flowers.length; i++) {
+            sumB = sumB + flowers[i];
+
+        }
 
     }
 }
